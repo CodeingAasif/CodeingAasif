@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    align-items: center;
+    background: black;
+    background-size: cover;
+    width: 1510px;
+    height: 1200px;
+}
+.mydiv
+{
+    border: 2px solid ;
+    background: white;
+    width: 1510px;
+    height: 200px;
+    background-image: linear-gradient(90degwhite);
+    background-size: cover;
+    border-radius: 10%;
+    
+    
+}
+ul		{
+    list-style-type: 	none;
+    overflow:		 	hidden;
+    display: 			white;
+    float: 				left;
+}
+li		{
+float: 				left;
+border-right: 		1px solid #FFF;
+}
+li-last-child	{
+border-right: 		dotted;
+}
+a	{
+    display: 	black;
+    color: 		white;
+    text-align: center;
+    padding: 	100px 100px;
+    font-size: 	24px;
+    text-decoration: 	none;
+    transition: 	 5s;
+}	
+
+.aasif
+{
+    width: 450px;
+    height: 750px;
+    background:     white;
+    align-items: center;
+    overflow:   hidden;
+    border-radius: 40px;
+    box-shadow: -50px -50px 35px gray;
+}
+
+.search	{
+    float:  	right;
+    
+}
+.search	input	{
+    width: 		400px;
+    height: 	30px;
+    margin: 	20px 20px 0px 0px;
+    border-radius: 15%;
+    border-left: 	1px solid rgb(24, 211, 124);
+    background-color:   black;
+    opacity: 	    10;
+    padding-left: 	10px;
+    color: 		white;
+    font-size: 	18px;
+}
+button{
+    width: 150px;
+    height: 30px;
+    border: none;
+    background: linear-gradient( black,white);
+    border-radius: 15%;
+}
